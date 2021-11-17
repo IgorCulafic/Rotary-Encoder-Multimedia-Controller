@@ -1,4 +1,4 @@
-/* 
+/* V2
  *  Keyboard Library documentation: https://github.com/arduino-libraries/Keyboard/blob/master/src/Keyboard.h
  *  HID-Project library documentation: https://github.com/NicoHood/HID/wiki/Consumer-API
 */
@@ -156,7 +156,8 @@ void loop() {
       digitalWrite(ledPinBT4, LOW);
       }
 }
-
+//Rotate right
+//Add more cases for more modes
 void rotateRight() {
   switch(modeBTN){
     case 1:{
@@ -215,7 +216,8 @@ void rotateRight() {
   }
 }
 }
-
+//Rotate Left
+//Add more cases for more modes
 void rotateLeft() {
   switch(modeBTN){
     case 1:{
